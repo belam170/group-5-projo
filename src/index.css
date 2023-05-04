@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Styles for the About component */
+
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+}
+
+.boxer{
+  width: 64%;
+  background-color: aqua;
+  height: 22lh;
+  border-radius: 2.1rem;
+
+}
