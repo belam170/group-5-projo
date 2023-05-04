@@ -1,12 +1,13 @@
 import Header from "./Header";
 import Searchbar from "./Searchbar";
 import About from "./About"
+import ContactUs from "./ContactUs";
 function App() {
   return (
     <div>
-      <Header />
-      <Searchbar />
-      <About />
+      <ContactUs />
+    
+      
     </div>
   );
 }
