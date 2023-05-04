@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Navbar() {
@@ -15,9 +16,9 @@ export default function Navbar() {
         <div className='container'>
           <nav>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><Link to="/beef">beef</Link></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </nav>
         </div>
