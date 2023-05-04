@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Category.scss";
 
-const CategoryList = ({categories}) => {
+const CategoryList = ({categories}) => 
   return (
     <div className='section-wrapper bg-whitesmoke'>
         <div className='container'>
