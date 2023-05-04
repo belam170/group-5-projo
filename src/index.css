@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -56,7 +57,8 @@ code {
 .box p {
   margin-bottom: 0;
 }
-#add{
+
+#add {
   margin-left: 35%;
   margin-top: 50px;
   padding: 20px;
@@ -64,13 +66,39 @@ code {
   border: none;
   background-color: aquamarine;
 }
-#but{
+
+#but {
   padding: 20px;
   background-color: coral;
   border-top-right-radius: 2.1rem;
   border-bottom-right-radius: 2.1rem;
   border: none;
 }
-.header{
+
+.header {
   background-color: yellow;
+}
+
+.bar {
+  margin-left: 97%;
+}
+
+.container {
+  width: 20%;
+  height: 100%;
+}
+
+.container nav ul {
+  margin-left: -60px;
+  width: 709%;
+}
+
+.container ul li {
+  display: block;
+  border: none;
+}
+
+.container ul li a {
+  color: grey;
+  text-decoration: none;
 }

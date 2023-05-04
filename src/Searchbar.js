@@ -29,8 +29,7 @@ export default function Searchbar() {
         <input type="text" name="search" id="add"/>
         <button type="submit" id="but">Search</button>
       </form>
-      
-      
+
       {searchResults.map(meal => (
         <div key={meal.idMeal} className="card">
           <p>{meal.strMeal}</p>
@@ -45,6 +44,5 @@ export default function Searchbar() {
         </div>
       ))}
     </div>
-    
   )
 }
