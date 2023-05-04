@@ -13,7 +13,7 @@ p {
 
 .boxer {
   width: 64%;
-  background-color: aqua;
+  background-color: rgb(215, 101, 101);
   height: 22lh;
   border-radius: 2.1rem;
 }
@@ -128,6 +128,7 @@ code {
   color: grey;
   text-decoration: none;
 }
+
 nav {
   background-color: #f2f2f2;
   border-bottom: 1px solid #ccc;
@@ -149,7 +150,7 @@ nav li:last-child {
   margin-right: 0;
 }
 
-nav a {
+nav a{
   color: #333;
   text-decoration: none;
   padding: 5px 10px;
