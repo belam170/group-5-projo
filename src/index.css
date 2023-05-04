@@ -16,6 +16,9 @@ p {
   background-color: rgb(215, 101, 101);
   height: 22lh;
   border-radius: 2.1rem;
+  margin-left: 20%;
+  margin-top: 30px;
+  margin-bottom: 18%;
 }
 
 /* Styles for the card component */
@@ -166,4 +169,11 @@ nav a:hover {
 }
 #red{
   background-color: red;
+}
+#beaut{
+  width: 100%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  height: 25lh;
+  object-fit: contain;
 }

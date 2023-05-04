@@ -14,8 +14,9 @@ function App() {
           <Route path="/home" element={<Searchbar />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
+     
     </div>
   );
 }

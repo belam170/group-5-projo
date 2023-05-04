@@ -69,10 +69,10 @@ export default function Searchbar() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input type="text" name="search" id="add" />
+        <input type="text" name="search" id="add" placeholder='search here'/>
         <button type="submit" id="but">Search</button>
       </form>
-
+    <img id="beaut" src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="not available" />
       {errorMessage && <p>{errorMessage}</p>}
 
       {searchResults.map(meal => (
