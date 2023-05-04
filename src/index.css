@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bar{
+ margin-left: 97%;
+}
+.container{
+  width: 20%;
+  height: 100%;
+}
+.container nav ul{
+margin-left: -60px;
+width: 709%;
+}
+.container ul li {
+  display: block;
+  border: none
+}
+.container ul li a{
+  color: grey;
+  text-decoration: none;
+}
