@@ -11,22 +11,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.bar{
- margin-left: 97%;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
-.container{
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7b42c;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.box {
+  display: block;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box h3 {
+  margin-top: 0;
+}
+
+.box p {
+  margin-bottom: 0;
+}
+
+#add {
+  margin-left: 35%;
+  margin-top: 50px;
+  padding: 20px;
+  width: 15%;
+  border: none;
+  background-color: aquamarine;
+}
+
+#but {
+  padding: 20px;
+  background-color: coral;
+  border-top-right-radius: 2.1rem;
+  border-bottom-right-radius: 2.1rem;
+  border: none;
+}
+
+.header {
+  background-color: yellow;
+}
+
+.bar {
+  margin-left: 97%;
+}
+
+.container {
   width: 20%;
   height: 100%;
 }
-.container nav ul{
-margin-left: -60px;
-width: 709%;
+
+.container nav ul {
+  margin-left: -60px;
+  width: 709%;
 }
+
 .container ul li {
   display: block;
-  border: none
+  border: none;
 }
-.container ul li a{
+
+.container ul li a {
   color: grey;
   text-decoration: none;
 }

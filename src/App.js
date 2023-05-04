@@ -1,12 +1,14 @@
+import Header from "./Header";
 import Searchbar from "./Searchbar";
-import Navbar from "./Navbar";
+
 function App() {
   return (
-    <div >
-      <Navbar />
-<Searchbar />
-     </div>
+    <div>
+      <Header />
+      <Searchbar />
+    </div>
   );
 }
 
 export default App;
+
