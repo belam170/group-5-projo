@@ -43,7 +43,7 @@ Or you can access the web application directly via this https://superlative-medo
 - Font awesome Icons
 *****
 ## Technologies Used
-1. 
+1. React
 2. CSS
 3. JavaScript
 *****
